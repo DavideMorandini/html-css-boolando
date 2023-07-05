@@ -18,7 +18,6 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* position: fixed; */
 }
 
 div.row {
@@ -113,6 +112,13 @@ div.card_n1 {
     background-position: center;
 }
 
+div.card_n1:hover {
+    background-image: url("../img/1b.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 div.heart {
     width: 40px;
     height: 40px;
@@ -180,8 +186,22 @@ div.card_n2 {
     background-position: center;
 }
 
+div.card_n2:hover {
+    background-image: url("../img/2b.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 div.card_n3 {
     background-image: url("../img/3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.card_n3:hover {
+    background-image: url("../img/3b.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -194,6 +214,13 @@ div.card_n4 {
     background-position: center;
 }
 
+div.card_n4:hover {
+    background-image: url("../img/4b.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 div.card_n5 {
     background-image: url("../img/5.webp");
     background-repeat: no-repeat;
@@ -201,8 +228,22 @@ div.card_n5 {
     background-position: center;
 }
 
+div.card_n5:hover {
+    background-image: url("../img/5b.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 div.card_n6 {
     background-image: url("../img/6.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.card_n6:hover {
+    background-image: url("../img/6b.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
