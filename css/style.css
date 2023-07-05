@@ -130,6 +130,10 @@ div.heart {
     right: 0;
 }
 
+div.heart:hover {
+    color: red;
+}
+
 div.discount {
     width: auto;
     height: auto; 
