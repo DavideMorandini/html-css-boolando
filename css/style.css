@@ -10,7 +10,6 @@ body {
 
 /* header */
 .container_header {
-    border: 1px solid black;
     width: 100%;
     height: 60px;
     background-color: #ff6900;
@@ -23,7 +22,6 @@ body {
 }
 
 div.row {
-    border: 1px solid red;
     width: 80%;
     height: auto; 
     margin: 0 auto;
@@ -34,7 +32,6 @@ div.row {
 }
 
 div.column {
-    /* border: 1px solid violet; */
     width: 20%;
     height: auto;
     display: flex;
@@ -44,7 +41,6 @@ div.column {
 }
 
 ul.genres {
-    /* border: 1px solid blue; */
     width: 100%;
     height: auto;
     display: flex;
@@ -54,14 +50,12 @@ ul.genres {
 }
 
 li {
-    /* border: 4px solid green; */
     list-style-type: none;
     width: auto;
     height: auto;
 }
 
 a, i {
-    /* border: 3px solid orange; */
     text-decoration: none;
     color: white;
     font-size: 14px;
@@ -74,7 +68,6 @@ div.col_center {
 }
 
 img.logo {
-    /* border: 1px solid green; */
     width: 169.5px;
 }
 
@@ -86,14 +79,12 @@ div.col_right {
 
 /* main */
 .container_main{
-    border: 1px solid black;
     width: 100%;
     height: auto;
     background-color: #ffffff;
 }
 
 div.row_main {
-    border: 1px solid red;
     width: 80%;
     height: auto; 
     margin: 50px auto;
@@ -104,15 +95,12 @@ div.row_main {
 }
 
 div.col_people  {
-    border: 1px solid green;
-    /* width: 20rem; */
     width: calc(100% / 3 - 20px);
     height: auto;
     margin: 0px 10px;
 }
 
 div.card {
-    border: 1px solid violet;
     width: auto;
     height: 462px;
     position: relative;
@@ -126,7 +114,6 @@ div.card_n1 {
 }
 
 div.heart {
-    /* border: 1px solid black; */
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -138,7 +125,6 @@ div.heart {
 }
 
 div.discount {
-    /* border: 1px solid black; */
     width: auto;
     height: auto; 
     position: absolute;
@@ -147,7 +133,6 @@ div.discount {
 }
 
 div.square {
-    /* border: 1px solid black; */
     width: auto;
     height: auto; 
     display: inline-block;
@@ -165,7 +150,6 @@ div.green {
 }
 
 div.info {
-    /* border: 1px solid black; */
     width: auto;
     height: auto;
 }
@@ -226,16 +210,49 @@ div.card_n6 {
 
 /* footer  */
 .container_footer {
-    border: 1px solid black;
     width: 100%;
-    height: 60px;
+    height: 80px;
     background-color: #1a1a1a;
     box-shadow: 0px 1px 4px 1px grey;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; */
 }
+
+div.row_footer {
+    width: 80%;
+    height: auto; 
+    margin: 10px auto; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+strong {
+    color: white;
+    display: inline-block;
+    margin: 20px 0px 10px 0px;
+    font-size: 16px;
+}
+
+li.last_info {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin: 0px 5px 0px 0px;
+}
+
+a, span.dove_trovarci {
+    color: white;
+    font-size: 12px;
+}
+
+div.social_list {
+    margin-top: 5px;
+}
+
+
+/* controlla il codice
+refactoring
+navbar */
 
 
 
